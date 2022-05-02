@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F350F281FCC4C0006B307 /* FloaterApp.swift */; };
-		AE3F3512281FCC4C0006B307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3511281FCC4C0006B307 /* ContentView.swift */; };
+		AE3F3512281FCC4C0006B307 /* ContentPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */; };
 		AE3F3514281FCC500006B307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3F3513281FCC500006B307 /* Assets.xcassets */; };
 		AE3F3517281FCC500006B307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3F3516281FCC500006B307 /* Preview Assets.xcassets */; };
 		AE3F3521281FCC500006B307 /* FloaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3520281FCC500006B307 /* FloaterTests.swift */; };
@@ -22,6 +22,9 @@
 		AE3F3544282012C40006B307 /* playa-chicama.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3543282012C40006B307 /* playa-chicama.swift */; };
 		AE3F3548282019DA0006B307 /* etoile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3547282019DA0006B307 /* etoile.swift */; };
 		AE3F354A282019E90006B307 /* etoile_vide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3549282019E90006B307 /* etoile_vide.swift */; };
+		AE3F354C28201E0B0006B307 /* ContentSupertubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F354B28201E0B0006B307 /* ContentSupertubes.swift */; };
+		AE3F354E28201E3A0006B307 /* ContentSuperbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F354D28201E3A0006B307 /* ContentSuperbank.swift */; };
+		AE3F355028201ECE0006B307 /* ContentPlaya.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F354F28201ECE0006B307 /* ContentPlaya.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,7 @@
 /* Begin PBXFileReference section */
 		AE3F350C281FCC4C0006B307 /* Floater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3F350F281FCC4C0006B307 /* FloaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloaterApp.swift; sourceTree = "<group>"; };
-		AE3F3511281FCC4C0006B307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPipeline.swift; sourceTree = "<group>"; };
 		AE3F3513281FCC500006B307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3F3516281FCC500006B307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE3F351C281FCC500006B307 /* FloaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +63,9 @@
 		AE3F3543282012C40006B307 /* playa-chicama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playa-chicama.swift"; sourceTree = "<group>"; };
 		AE3F3547282019DA0006B307 /* etoile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etoile.swift; sourceTree = "<group>"; };
 		AE3F3549282019E90006B307 /* etoile_vide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etoile_vide.swift; sourceTree = "<group>"; };
+		AE3F354B28201E0B0006B307 /* ContentSupertubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSupertubes.swift; sourceTree = "<group>"; };
+		AE3F354D28201E3A0006B307 /* ContentSuperbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentSuperbank.swift; sourceTree = "<group>"; };
+		AE3F354F28201ECE0006B307 /* ContentPlaya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPlaya.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				AE3F350F281FCC4C0006B307 /* FloaterApp.swift */,
-				AE3F3511281FCC4C0006B307 /* ContentView.swift */,
+				AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */,
 				AE3F353D282008870006B307 /* List.swift */,
+				AE3F354B28201E0B0006B307 /* ContentSupertubes.swift */,
+				AE3F354D28201E3A0006B307 /* ContentSuperbank.swift */,
+				AE3F354F28201ECE0006B307 /* ContentPlaya.swift */,
 				AE3F353F2820129B0006B307 /* superbank.swift */,
 				AE3F3541282012B00006B307 /* supertubes.swift */,
 				AE3F3543282012C40006B307 /* playa-chicama.swift */,
@@ -287,8 +296,11 @@
 				AE3F354A282019E90006B307 /* etoile_vide.swift in Sources */,
 				AE3F3548282019DA0006B307 /* etoile.swift in Sources */,
 				AE3F3542282012B00006B307 /* supertubes.swift in Sources */,
-				AE3F3512281FCC4C0006B307 /* ContentView.swift in Sources */,
+				AE3F3512281FCC4C0006B307 /* ContentPipeline.swift in Sources */,
+				AE3F355028201ECE0006B307 /* ContentPlaya.swift in Sources */,
+				AE3F354E28201E3A0006B307 /* ContentSuperbank.swift in Sources */,
 				AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */,
+				AE3F354C28201E0B0006B307 /* ContentSupertubes.swift in Sources */,
 				AE3F353E282008870006B307 /* List.swift in Sources */,
 				AE3F3544282012C40006B307 /* playa-chicama.swift in Sources */,
 			);

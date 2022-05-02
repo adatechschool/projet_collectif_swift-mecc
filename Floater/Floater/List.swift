@@ -16,7 +16,7 @@ struct SwiftUIView: View {
                         Text("Pipeline")
                             .font(.title)
                         Text("Oahu, Hawaii")
-                        NavigationLink(destination:ContentView()) {
+                        NavigationLink(destination:ContentPipeline()) {
                             pipeline()
                         }
                         
@@ -25,19 +25,25 @@ struct SwiftUIView: View {
                         Text("Superbank")
                             .font(.title)
                         Text("Gold Coast, Australia")
-                        superbank()
+                        NavigationLink(destination:ContentSuperbank()) {
+                            superbank()
+                        }
                     }
                     VStack {
                         Text("Supertubes")
                             .font(.title)
                         Text("Jeffreys Bay, South Africa")
-                        supertubes()
+                        NavigationLink(destination:ContentSupertubes()) {
+                            supertubes()
+                        }
                     }
                     VStack {
                         Text("Playa Chicama")
                             .font(.title)
                         Text("Lima, Peru")
-                        playa_chicama()
+                        NavigationLink(destination:ContentPlaya()) {
+                            playa_chicama()
+                        }
                     }
                 }
             }
