@@ -9,31 +9,36 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        ScrollView {
-            VStack {
+        NavigationView {
+            ScrollView {
                 VStack {
-                    Text("Pipeline")
-                        .font(.title)
-                    Text("Oahu, Hawaii")
-                    pipeline()
-                }
-                VStack {
-                    Text("Superbank")
-                        .font(.title)
-                    Text("Gold Coast, Australia")
-                    superbank()
-                }
-                VStack {
-                    Text("Supertubes")
-                        .font(.title)
-                    Text("Jeffreys Bay, South Africa")
-                    supertubes()
-                }
-                VStack {
-                    Text("Playa Chicama")
-                        .font(.title)
-                    Text("Lima, Peru")
-                    playa_chicama()
+                    VStack {
+                        Text("Pipeline")
+                            .font(.title)
+                        Text("Oahu, Hawaii")
+                        NavigationLink(destination:ContentView()) {
+                            pipeline()
+                        }
+                        
+                    }
+                    VStack {
+                        Text("Superbank")
+                            .font(.title)
+                        Text("Gold Coast, Australia")
+                        superbank()
+                    }
+                    VStack {
+                        Text("Supertubes")
+                            .font(.title)
+                        Text("Jeffreys Bay, South Africa")
+                        supertubes()
+                    }
+                    VStack {
+                        Text("Playa Chicama")
+                            .font(.title)
+                        Text("Lima, Peru")
+                        playa_chicama()
+                    }
                 }
             }
         }

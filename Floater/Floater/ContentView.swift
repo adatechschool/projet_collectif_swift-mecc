@@ -19,21 +19,23 @@ struct ContentView: View {
             .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Nom du spot")
+                Text("Pipeline")
                     .font(.title)
-                .foregroundColor(.teal)
+                    .foregroundColor(.teal)
+                HStack{
+                    etoile()
+                    etoile()
+                    etoile()
+                    etoile()
+                    etoile_vide()
                 
-                HStack {
-                    Text("Difficulté (étoiles)")
-                        .font(.subheadline)
-                    
                     Spacer()
-                    Text("Localisation")
+                    Text("Oahu, Hawaii")
                         .font(.subheadline)
                 }
                 
                 Divider()
-                Text("About Turtle Rock")
+                Text("About Pipeline")
                 .font(.title2)
                 Text("Descriptive text goes here.")
                 

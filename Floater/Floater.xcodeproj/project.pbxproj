@@ -20,6 +20,8 @@
 		AE3F35402820129B0006B307 /* superbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F353F2820129B0006B307 /* superbank.swift */; };
 		AE3F3542282012B00006B307 /* supertubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3541282012B00006B307 /* supertubes.swift */; };
 		AE3F3544282012C40006B307 /* playa-chicama.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3543282012C40006B307 /* playa-chicama.swift */; };
+		AE3F3548282019DA0006B307 /* etoile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3547282019DA0006B307 /* etoile.swift */; };
+		AE3F354A282019E90006B307 /* etoile_vide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3549282019E90006B307 /* etoile_vide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		AE3F353F2820129B0006B307 /* superbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superbank.swift; sourceTree = "<group>"; };
 		AE3F3541282012B00006B307 /* supertubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supertubes.swift; sourceTree = "<group>"; };
 		AE3F3543282012C40006B307 /* playa-chicama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playa-chicama.swift"; sourceTree = "<group>"; };
+		AE3F3547282019DA0006B307 /* etoile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etoile.swift; sourceTree = "<group>"; };
+		AE3F3549282019E90006B307 /* etoile_vide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etoile_vide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 				AE3F3541282012B00006B307 /* supertubes.swift */,
 				AE3F3543282012C40006B307 /* playa-chicama.swift */,
 				AE3F3513281FCC500006B307 /* Assets.xcassets */,
+				AE3F3547282019DA0006B307 /* etoile.swift */,
+				AE3F3549282019E90006B307 /* etoile_vide.swift */,
 				AE3F3539281FDF8A0006B307 /* pipeline.swift */,
 				AE3F353B281FE3230006B307 /* MapView.swift */,
 				AE3F3515281FCC500006B307 /* Preview Content */,
@@ -278,6 +284,8 @@
 				AE3F353A281FDF8A0006B307 /* pipeline.swift in Sources */,
 				AE3F35402820129B0006B307 /* superbank.swift in Sources */,
 				AE3F353C281FE3230006B307 /* MapView.swift in Sources */,
+				AE3F354A282019E90006B307 /* etoile_vide.swift in Sources */,
+				AE3F3548282019DA0006B307 /* etoile.swift in Sources */,
 				AE3F3542282012B00006B307 /* supertubes.swift in Sources */,
 				AE3F3512281FCC4C0006B307 /* ContentView.swift in Sources */,
 				AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */,
