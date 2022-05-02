@@ -14,21 +14,21 @@ struct ContentView: View {
             .ignoresSafeArea(edges: .top)
             .frame(height: 300)
             
-            wave()
+            pipeline()
             .offset(y: -130)
             .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Floater")
+                Text("Nom du spot")
                     .font(.title)
                 .foregroundColor(.teal)
                 
                 HStack {
-                    Text("Surf your life !")
+                    Text("Difficulté (étoiles)")
                         .font(.subheadline)
                     
                     Spacer()
-                    Text("California")
+                    Text("Localisation")
                         .font(.subheadline)
                 }
                 
