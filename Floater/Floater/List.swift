@@ -8,16 +8,25 @@
 import SwiftUI
 
 struct SwiftUIView: View {
+    var landmark: Landmark
+    
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack {
                     VStack {
-                        Text("Pipeline")
+                        Text(landmark.spot)
                             .font(.title)
                         Text("Oahu, Hawaii")
                         NavigationLink(destination:ContentPipeline()) {
-                            pipeline()
+                            landmark.image
+                                .resizable()
+                                .frame(width: 150, height: 150)
+                                .clipShape(Circle())
+                                .overlay {
+                                    Circle().stroke(.gray, lineWidth: 4)
+                                }
+                                .shadow(radius: 7)
                         }
                         
                     }
@@ -53,6 +62,6 @@ struct SwiftUIView: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        SwiftUIView(landmark: landmarks[0])
     }
 }
