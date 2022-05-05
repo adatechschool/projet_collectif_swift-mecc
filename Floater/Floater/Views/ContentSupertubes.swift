@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentSupertubes: View {
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinate: CLLocationCoordinate2D(latitude: 59.980167, longitude: -152.665167))
             .ignoresSafeArea(edges: .top)
             .frame(height: 300)
             

@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-import CoreLocation
-import MapKit
 
 struct spotDetail: View {
     var landmark: Landmark
@@ -32,9 +30,10 @@ struct spotDetail: View {
                     Text("About \(landmark.spot)")
                         .font(.title2)
                     Text(landmark.description)
+                    
                 }
                 .padding()
-
+                
             }
             .navigationTitle(landmark.spot)
             .navigationBarTitleDisplayMode(.inline)
