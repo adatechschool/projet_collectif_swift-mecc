@@ -9,29 +9,28 @@ import SwiftUI
 
 struct spotDetail: View {
     var landmark: Landmark
+    
     var body: some View {
             ScrollView {
                 MapView(coordinate: landmark.locationCoordinate)
                     .ignoresSafeArea(edges: .top)
                     .frame(height: 300)
+                
                 CircleImage(image: landmark.image)
                     .offset(y: -130)
                     .padding(.bottom, -130)
+                
                 VStack(alignment: .leading) {
-
                     Text(landmark.spot)
                         .font(.title)
-                  /*  HStack {
-                        Text(landmark.park)
-                            .font(.subheadline)
-                    }*/
+                    
                     Divider()
 
                     Text("About \(landmark.spot)")
                         .font(.title2)
                     Text(landmark.description)
-                    
                 }
+                
                 .padding()
                 
             }

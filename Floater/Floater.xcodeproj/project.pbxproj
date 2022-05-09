@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE38CBBB2829481E00E1EE70 /* landmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBA2829481E00E1EE70 /* landmarkRow.swift */; };
+		AE38CBBD28295BC900E1EE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBC28295BC900E1EE70 /* ContentView.swift */; };
 		AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F350F281FCC4C0006B307 /* FloaterApp.swift */; };
 		AE3F3512281FCC4C0006B307 /* ContentPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */; };
 		AE3F3514281FCC500006B307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3F3513281FCC500006B307 /* Assets.xcassets */; };
@@ -16,7 +18,7 @@
 		AE3F352D281FCC500006B307 /* FloaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F352C281FCC500006B307 /* FloaterUITestsLaunchTests.swift */; };
 		AE3F353A281FDF8A0006B307 /* pipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3539281FDF8A0006B307 /* pipeline.swift */; };
 		AE3F353C281FE3230006B307 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F353B281FE3230006B307 /* MapView.swift */; };
-		AE3F353E282008870006B307 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F353D282008870006B307 /* List.swift */; };
+		AE3F353E282008870006B307 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F353D282008870006B307 /* LandmarkList.swift */; };
 		AE3F35402820129B0006B307 /* superbank.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F353F2820129B0006B307 /* superbank.swift */; };
 		AE3F3542282012B00006B307 /* supertubes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3541282012B00006B307 /* supertubes.swift */; };
 		AE3F3544282012C40006B307 /* playa-chicama.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3543282012C40006B307 /* playa-chicama.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE38CBBA2829481E00E1EE70 /* landmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarkRow.swift; sourceTree = "<group>"; };
+		AE38CBBC28295BC900E1EE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE3F350C281FCC4C0006B307 /* Floater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3F350F281FCC4C0006B307 /* FloaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloaterApp.swift; sourceTree = "<group>"; };
 		AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPipeline.swift; sourceTree = "<group>"; };
@@ -62,7 +66,7 @@
 		AE3F352C281FCC500006B307 /* FloaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AE3F3539281FDF8A0006B307 /* pipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pipeline.swift; sourceTree = "<group>"; };
 		AE3F353B281FE3230006B307 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		AE3F353D282008870006B307 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		AE3F353D282008870006B307 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		AE3F353F2820129B0006B307 /* superbank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superbank.swift; sourceTree = "<group>"; };
 		AE3F3541282012B00006B307 /* supertubes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supertubes.swift; sourceTree = "<group>"; };
 		AE3F3543282012C40006B307 /* playa-chicama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "playa-chicama.swift"; sourceTree = "<group>"; };
@@ -130,7 +134,7 @@
 				AE3F350F281FCC4C0006B307 /* FloaterApp.swift */,
 				AE3F355928212F3C0006B307 /* Resources */,
 				AE3F355528212D590006B307 /* Views */,
-				AE3F353D282008870006B307 /* List.swift */,
+				AE3F353D282008870006B307 /* LandmarkList.swift */,
 				AE3F3513281FCC500006B307 /* Assets.xcassets */,
 				AE3F3515281FCC500006B307 /* Preview Content */,
 			);
@@ -166,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */,
+				AE38CBBC28295BC900E1EE70 /* ContentView.swift */,
 				AEFAA2032823D3F200D354C8 /* CircleImage.swift */,
 				AE3F354D28201E3A0006B307 /* ContentSuperbank.swift */,
 				AE3F354F28201ECE0006B307 /* ContentPlaya.swift */,
@@ -178,6 +183,7 @@
 				AE3F353B281FE3230006B307 /* MapView.swift */,
 				AE3F354B28201E0B0006B307 /* ContentSupertubes.swift */,
 				AE9EDAAB2823CF2E003D00B4 /* spotDetail.swift */,
+				AE38CBBA2829481E00E1EE70 /* landmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -336,14 +342,16 @@
 				AE3F353C281FE3230006B307 /* MapView.swift in Sources */,
 				AE9EDAAC2823CF2E003D00B4 /* spotDetail.swift in Sources */,
 				AE3F354A282019E90006B307 /* etoile_vide.swift in Sources */,
+				AE38CBBB2829481E00E1EE70 /* landmarkRow.swift in Sources */,
 				AE3F3548282019DA0006B307 /* etoile.swift in Sources */,
+				AE38CBBD28295BC900E1EE70 /* ContentView.swift in Sources */,
 				AE3F3542282012B00006B307 /* supertubes.swift in Sources */,
 				AE3F3512281FCC4C0006B307 /* ContentPipeline.swift in Sources */,
 				AE3F355028201ECE0006B307 /* ContentPlaya.swift in Sources */,
 				AE3F354E28201E3A0006B307 /* ContentSuperbank.swift in Sources */,
 				AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */,
 				AE3F354C28201E0B0006B307 /* ContentSupertubes.swift in Sources */,
-				AE3F353E282008870006B307 /* List.swift in Sources */,
+				AE3F353E282008870006B307 /* LandmarkList.swift in Sources */,
 				AEFAA2042823D3F200D354C8 /* CircleImage.swift in Sources */,
 				AE3F3544282012C40006B307 /* playa-chicama.swift in Sources */,
 				AE3F3552282128610006B307 /* LandMark.swift in Sources */,
