@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE38CBBB2829481E00E1EE70 /* landmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBA2829481E00E1EE70 /* landmarkRow.swift */; };
 		AE38CBBD28295BC900E1EE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBC28295BC900E1EE70 /* ContentView.swift */; };
+		AE38CBBF282A666800E1EE70 /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBE282A666800E1EE70 /* welcome.swift */; };
 		AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F350F281FCC4C0006B307 /* FloaterApp.swift */; };
 		AE3F3512281FCC4C0006B307 /* ContentPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */; };
 		AE3F3514281FCC500006B307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3F3513281FCC500006B307 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		AE38CBBA2829481E00E1EE70 /* landmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landmarkRow.swift; sourceTree = "<group>"; };
 		AE38CBBC28295BC900E1EE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE38CBBE282A666800E1EE70 /* welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
 		AE3F350C281FCC4C0006B307 /* Floater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3F350F281FCC4C0006B307 /* FloaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloaterApp.swift; sourceTree = "<group>"; };
 		AE3F3511281FCC4C0006B307 /* ContentPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentPipeline.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				AE3F354B28201E0B0006B307 /* ContentSupertubes.swift */,
 				AE9EDAAB2823CF2E003D00B4 /* spotDetail.swift */,
 				AE38CBBA2829481E00E1EE70 /* landmarkRow.swift */,
+				AE38CBBE282A666800E1EE70 /* welcome.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				AE3F3542282012B00006B307 /* supertubes.swift in Sources */,
 				AE3F3512281FCC4C0006B307 /* ContentPipeline.swift in Sources */,
 				AE3F355028201ECE0006B307 /* ContentPlaya.swift in Sources */,
+				AE38CBBF282A666800E1EE70 /* welcome.swift in Sources */,
 				AE3F354E28201E3A0006B307 /* ContentSuperbank.swift in Sources */,
 				AE3F3510281FCC4C0006B307 /* FloaterApp.swift in Sources */,
 				AE3F354C28201E0B0006B307 /* ContentSupertubes.swift in Sources */,
