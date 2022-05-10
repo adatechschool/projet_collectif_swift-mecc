@@ -16,15 +16,19 @@ struct welcome: View {
         if self.isActive {
             LandmarkList()
             } else {
-        Text("Floater")
+                Image("surfer")
+                    .resizable()
+                    .frame(width: 150, height: 150)
+        Text("FLOATER")
             .font(.title)
             .fontWeight(.black)
             .foregroundColor(Color.teal)
             }
         }
         
+        
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 withAnimation {
                     self.isActive = true
                 }
