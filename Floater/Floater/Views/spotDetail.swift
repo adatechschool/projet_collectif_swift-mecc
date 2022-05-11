@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct spotDetail: View {
     var landmark: Landmark
@@ -28,7 +29,7 @@ struct spotDetail: View {
 
                     Text("About \(landmark.spot)")
                         .font(.title2)
-                    Text(landmark.description)
+                    Text(landmark.link)
                 }
                 
                 .padding()
