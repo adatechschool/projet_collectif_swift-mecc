@@ -9,11 +9,12 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
+
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var spot: String
     var link: String
-    
+
     
     private var imageName: String
         var image: Image {

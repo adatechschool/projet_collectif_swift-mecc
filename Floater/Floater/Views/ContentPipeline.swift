@@ -23,13 +23,8 @@ struct ContentPipeline: View {
                 Text("Pipeline")
                     .font(.title)
                     .foregroundColor(.teal)
+              
                 HStack{
-                    etoile()
-                    etoile()
-                    etoile()
-                    etoile()
-                    etoile_vide()
-                
                     Spacer()
                     Text("Oahu, Hawaii")
                         .font(.subheadline)
