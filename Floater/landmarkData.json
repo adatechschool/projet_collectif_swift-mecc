@@ -7,7 +7,8 @@
             "latitude": 21.6650562
         },
         "link": "https://magicseaweed.com/Pipeline-Backdoor-Surf-Report/616/",
-        "imageName": "pipeline"
+        "imageName": "pipeline",
+        "difficulty": 4
     },
     {
         "spot": "Superbank",
@@ -17,7 +18,8 @@
             "latitude": -28.162557
         },
         "link": "https://magicseaweed.com/Surfers-Paradise-Gold-Coast-Surf-Report/1012/",
-        "imageName": "superbank"
+        "imageName": "superbank",
+        "difficulty": 4
     },
     {
         "spot": "Supertubes",
@@ -27,7 +29,8 @@
             "latitude": -34.031783
         },
         "link": "https://magicseaweed.com/Jeffreys-Bay-J-Bay-Surf-Report/88/",
-        "imageName": "supertubes"
+        "imageName": "supertubes",
+        "difficulty": 5
     },
     {
         "spot": "Playa Chicama",
@@ -37,7 +40,8 @@
             "latitude": -7.7001724
         },
         "link": "https://magicseaweed.com/Southern-Peru-Surfing/378/",
-        "imageName": "playa"
+        "imageName": "playa",
+        "difficulty": 3
     },
     {
         "spot": "The Bubble",
@@ -47,7 +51,8 @@
             "latitude": 28.7449091
         },
         "link": "https://magicseaweed.com/Canary-Islands-Surf-Forecast/5/",
-        "imageName": "bubble"
+        "imageName": "bubble",
+        "difficulty": 3
     },
     {
         "spot": "Rockaway Beach",
@@ -57,17 +62,19 @@
             "latitude": 40.5867247
         },
         "link": "https://magicseaweed.com/Rockaway-Surf-Report/384/rock",
-        "imageName": "rockaway"
+        "imageName": "rockaway",
+        "difficulty": 1
     },
     {
-        "spot": "Rockaway Beach",
+        "spot": "Pasta Point",
         "id": 1007,
         "coordinates": {
             "longitude": 73.59173299999998,
             "latitude": 4.317842
         },
         "link": "https://magicseaweed.com/Maldives-Surf-Forecast/56/",
-        "imageName": "pastapoint"
+        "imageName": "pastapoint",
+        "difficulty": 3
     },
     {
         "spot": "Manu Bay",
@@ -77,7 +84,8 @@
             "latitude": -37.8214592
         },
         "link": "https://magicseaweed.com/Raglan-Surf-Report/91/",
-        "imageName": "manubay"
+        "imageName": "manubay",
+        "difficulty": 2
     },
     {
         "spot": "Kitty Hawk",
@@ -87,7 +95,8 @@
             "latitude": 36.1005777
         },
         "link": "https://magicseaweed.com/North-Carolina-Outer-Banks-North-Surfing/283/",
-        "imageName": "kittyhawk"
+        "imageName": "kittyhawk",
+        "difficulty": 3
     },
     {
         "spot": "Skeleton Bay",
@@ -97,6 +106,7 @@
             "latitude": -25.9144919
         },
         "link": "https://magicseaweed.com/Skeleton-Bay-Surf-Report/4591/",
-        "imageName": "skeleton"
+        "imageName": "skeleton",
+        "difficulty": 5
     }
 ]
