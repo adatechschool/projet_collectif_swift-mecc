@@ -8,6 +8,7 @@
 import SwiftUI
 import Foundation
 
+
 struct spotDetail: View {
     var landmark: Landmark
     
@@ -27,9 +28,10 @@ struct spotDetail: View {
                     
                     Divider()
 
-                    Text("About \(landmark.spot)")
+                    Text("Pour en savoir plus sur \(landmark.spot) :")
                         .font(.title2)
-                    Text(landmark.link)
+                    Link("https://magicseaweed.com",
+                         destination: URL(string: landmark.link)!)
                 }
                 
                 .padding()
