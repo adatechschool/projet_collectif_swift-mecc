@@ -25,6 +25,7 @@ struct ContentPipeline: View {
                     .foregroundColor(.teal)
               
                 HStack{
+                    RatingView(rating: 4)
                     Spacer()
                     Text("Oahu, Hawaii")
                         .font(.subheadline)
