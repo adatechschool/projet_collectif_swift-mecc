@@ -23,9 +23,12 @@ struct spotDetail: View {
                     .padding(.bottom, -130)
                 
                 VStack(alignment: .leading) {
+                    HStack {
                     Text(landmark.spot)
                         .font(.title)
-                    
+                        
+                        RatingView(rating: landmark.difficulty)
+                    }
                     Divider()
 
                     Text("Pour en savoir plus sur \(landmark.spot) :")

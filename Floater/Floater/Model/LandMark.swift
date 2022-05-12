@@ -14,7 +14,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     var spot: String
     var link: String
-    var difficulty: Int
+    var difficulty: Float
     
     
     private var imageName: String
