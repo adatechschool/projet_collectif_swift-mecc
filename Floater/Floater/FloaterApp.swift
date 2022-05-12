@@ -11,10 +11,7 @@ import SwiftUI
 struct FloaterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentPipeline()
-            ContentSuperbank()
-            ContentSupertubes()
-            ContentPlaya()
+            welcome()
         }
     }
 }
