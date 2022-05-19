@@ -8,15 +8,27 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @EnvironmentObject var ModelSurfSpotsData: ModelSurfSpotsData
+    
+    var allSpots: [Spot] {
+        ModelSurfSpotsData.landmarks
+    }
+    
     var body: some View {
         NavigationView {
-            List(landmarks) { landmark in
-                NavigationLink {
-                    spotDetail(landmark: landmark)
-                } label: {
-                    LandmarkRow(landmark: landmark)
+            List {
+                ForEach(allSpots) {
+                    landmark in
+                    NavigationLink {
+                        spotDetail(landmark: landmark)
+                    } label: {
+                        LandmarkRow(landmark: landmark)
+                    }
                 }
             }
+            .onAppear(perform:{
+                ModelSurfSpotsData.getSpots()
+            })
             .navigationTitle("Spots de surf")
         }
     }
@@ -24,6 +36,6 @@ struct LandmarkList: View {
 
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkList()
+        LandmarkList().environmentObject(ModelSurfSpotsData())
     }
 }

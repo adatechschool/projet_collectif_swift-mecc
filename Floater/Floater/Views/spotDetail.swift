@@ -10,28 +10,28 @@ import Foundation
 
 
 struct spotDetail: View {
-    var landmark: Landmark
+    var landmark: Spot
     
     var body: some View {
             ScrollView {
-                MapView(coordinate: landmark.locationCoordinate)
-                    .ignoresSafeArea(edges: .top)
-                    .frame(height: 300)
+//                MapView(coordinate: landmark.coordinates)
+//                    .ignoresSafeArea(edges: .top)
+//                    .frame(height: 300)
                 
-                CircleImage(image: landmark.image)
-                    .offset(y: -130)
-                    .padding(.bottom, -130)
+//                CircleImage(image: landmark.imageName)
+//                    .offset(y: -130)
+//                    .padding(.bottom, -130)
                 
                 VStack(alignment: .leading) {
                     HStack {
-                    Text(landmark.spot)
+                        Text(landmark.name)
                         .font(.title)
                         
-                        RatingView(rating: landmark.difficulty)
+                        RatingView(rating: Float(landmark.difficulty))
                     }
                     Divider()
 
-                    Text("Pour en savoir plus sur \(landmark.spot) :")
+                    Text("Pour en savoir plus sur \(landmark.name) :")
                         .font(.title2)
                     Link("https://magicseaweed.com",
                          destination: URL(string: landmark.link)!)
@@ -40,13 +40,15 @@ struct spotDetail: View {
                 .padding()
                 
             }
-            .navigationTitle(landmark.spot)
+            .navigationTitle(landmark.name)
             .navigationBarTitleDisplayMode(.inline)
         }
 }
 
 struct spotDetail_Previews: PreviewProvider {
+    static var modelSurfSpotsData = ModelSurfSpotsData()
+    
     static var previews: some View {
-        spotDetail(landmark: landmarks[0])
+        spotDetail(landmark: ModelSurfSpotsData().landmarks[0]).environmentObject(modelSurfSpotsData)
     }
 }

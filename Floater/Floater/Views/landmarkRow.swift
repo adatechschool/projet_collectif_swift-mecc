@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct LandmarkRow: View {
-    var landmark: Landmark
+    var landmark: Spot
 
     var body: some View {
         HStack {
-            landmark.image
-                .resizable()
-                .frame(width: 50, height: 50)
-            Text(landmark.spot)
+//            landmark.spots[0].imageName
+//                .resizable()
+//                .frame(width: 50, height: 50)
+            Text(landmark.name)
 
             Spacer()
         }
@@ -23,7 +23,8 @@ struct LandmarkRow: View {
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
+    static var landmarks = ModelSurfSpotsData().landmarks
     static var previews: some View {
-        LandmarkRow(landmark: landmarks[1])
+        LandmarkRow(landmark: landmarks[0])
     }
 }
