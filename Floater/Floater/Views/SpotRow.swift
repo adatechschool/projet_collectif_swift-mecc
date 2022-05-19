@@ -1,8 +1,7 @@
 //
 //  landmarkRow.swift
 //  Floater
-//
-//  Created by Esther Vilpique on 09/05/2022.
+
 //
 
 import SwiftUI
@@ -15,7 +14,7 @@ struct LandmarkRow: View {
             landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(landmark.spot)
+            Text(landmark.name)
 
             Spacer()
         }

@@ -1,6 +1,6 @@
 [
     {
-        "spot": "Pipeline",
+        "name": "Pipeline",
         "id": 1001,
         "coordinates": {
             "longitude": -158.05120469999997,
@@ -11,7 +11,7 @@
         "difficulty": 4
     },
     {
-        "spot": "Superbank",
+        "name": "Superbank",
         "id": 1002,
         "coordinates": {
             "longitude": 153.55002880000006,
@@ -22,7 +22,7 @@
         "difficulty": 4
     },
     {
-        "spot": "Supertubes",
+        "name": "Supertubes",
         "id": 1003,
         "coordinates": {
             "longitude": 24.93159400000002,
@@ -33,7 +33,7 @@
         "difficulty": 5
     },
     {
-        "spot": "Playa Chicama",
+        "name": "Playa Chicama",
         "id": 1004,
         "coordinates": {
             "longitude": -79.43381879999998,
@@ -44,7 +44,7 @@
         "difficulty": 3
     },
     {
-        "spot": "The Bubble",
+        "name": "The Bubble",
         "id": 1005,
         "coordinates": {
             "longitude": -13.942277999999988,
@@ -55,7 +55,7 @@
         "difficulty": 3
     },
     {
-        "spot": "Rockaway Beach",
+        "name": "Rockaway Beach",
         "id": 1006,
         "coordinates": {
             "longitude": -73.81149929999998,
@@ -66,7 +66,7 @@
         "difficulty": 1
     },
     {
-        "spot": "Pasta Point",
+        "name": "Pasta Point",
         "id": 1007,
         "coordinates": {
             "longitude": 73.59173299999998,
@@ -77,7 +77,7 @@
         "difficulty": 3
     },
     {
-        "spot": "Manu Bay",
+        "name": "Manu Bay",
         "id": 1008,
         "coordinates": {
             "longitude": 174.81221619999997,
@@ -88,7 +88,7 @@
         "difficulty": 2
     },
     {
-        "spot": "Kitty Hawk",
+        "name": "Kitty Hawk",
         "id": 1009,
         "coordinates": {
             "longitude": -75.71195569999998,
@@ -99,7 +99,7 @@
         "difficulty": 3
     },
     {
-        "spot": "Skeleton Bay",
+        "name": "Skeleton Bay",
         "id": 1010,
         "coordinates": {
             "longitude": 14.906859,
