@@ -1,8 +1,7 @@
 //
 //  spotDetail.swift
 //  Floater
-//
-//  Created by Esther Vilpique on 05/05/2022.
+
 //
 
 import SwiftUI
@@ -10,43 +9,39 @@ import Foundation
 
 
 struct spotDetail: View {
-    var landmark: Landmark
+    var spot: Spot
     
     var body: some View {
             ScrollView {
-                MapView(coordinate: landmark.locationCoordinate)
+                MapView(coordinate: spot.locationCoordinate)
                     .ignoresSafeArea(edges: .top)
                     .frame(height: 300)
                 
-                CircleImage(image: landmark.image)
+                CircleImage(image: spot.image)
                     .offset(y: -130)
                     .padding(.bottom, -130)
                 
                 VStack(alignment: .leading) {
                     HStack {
-                    Text(landmark.spot)
+                    Text(spot.name)
                         .font(.title)
                         
-                        RatingView(rating: landmark.difficulty)
+                        RatingView(rating: spot.difficulty)
                     }
                     Divider()
 
-                    Text("Pour en savoir plus sur \(landmark.spot) :")
+                    Text("Pour en savoir plus sur \(spot.name) :")
                         .font(.title2)
                     Link("https://magicseaweed.com",
-                         destination: URL(string: landmark.link)!)
+                         destination: URL(string: spot.link)!)
                 }
                 
                 .padding()
                 
             }
-            .navigationTitle(landmark.spot)
+            .navigationTitle(spot.name)
             .navigationBarTitleDisplayMode(.inline)
         }
 }
 
-struct spotDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        spotDetail(landmark: landmarks[0])
-    }
-}
+

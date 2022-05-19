@@ -1,8 +1,7 @@
 //
 //  CircleImage.swift
 //  Landmarks
-//
-//  Created by Céline Barbe on 04/05/2022.
+
 //
 
 import SwiftUI

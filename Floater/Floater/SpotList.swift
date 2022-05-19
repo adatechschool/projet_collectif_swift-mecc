@@ -6,23 +6,42 @@
 
 import SwiftUI
 
-struct LandmarkList: View {
+struct SpotList: View {
+    
+    @State var Spots = [Spot]()
+    
     var body: some View {
         NavigationView {
-            List(landmarks) { landmark in
-                NavigationLink {
-                    spotDetail(landmark: landmark)
-                } label: {
-                    LandmarkRow(landmark: landmark)
+            List(Spots, id: \.self) { spot in
+                HStack {
+                    NavigationLink {
+                        spotDetail(spot: spot)
+                    } label: {
+                        SpotRow(spot: spot)
+                    }
                 }
             }
-            .navigationTitle("Spots de surf")
+        }
+        .onAppear(){
+            getSpotData()
+        }
+        .navigationTitle(Text("Spots de surf"))
         }
     }
-}
 
-struct LandmarkList_Previews: PreviewProvider {
-    static var previews: some View {
-        LandmarkList()
+
+extension SpotList {
+    func getSpotData(){
+        ModelData().getSpots {(result) in
+            print(result)
+        switch result {
+        case .success(let spots): DispatchQueue.main.async {
+            self.Spots = spots
+            print(spots)
+        }
+        case .failure(let error):
+            print(error.localizedDescription)
+        }
+        }
     }
 }

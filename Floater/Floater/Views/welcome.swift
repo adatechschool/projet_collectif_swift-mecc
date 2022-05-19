@@ -1,8 +1,7 @@
 //
 //  welcome.swift
 //  Floater
-//
-//  Created by Esther Vilpique on 10/05/2022.
+
 //
 
 import SwiftUI
@@ -14,7 +13,7 @@ struct welcome: View {
     var body: some View {
         VStack {
         if self.isActive {
-            LandmarkList()
+            SpotList()
             } else {
                 Image("surfer")
                     .resizable()

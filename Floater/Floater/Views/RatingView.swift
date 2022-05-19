@@ -1,8 +1,7 @@
 //
 //  RatingView.swift
 //  Floater
-//
-//  Created by Esther Vilpique on 11/05/2022.
+
 //
 
 import SwiftUI

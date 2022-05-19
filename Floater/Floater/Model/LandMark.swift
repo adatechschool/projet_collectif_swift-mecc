@@ -1,8 +1,7 @@
 //
 //  LandMark.swift
 //  Floater
-//
-//  Created by Esther Vilpique on 03/05/2022.
+
 //
 
 import Foundation
@@ -10,9 +9,9 @@ import SwiftUI
 import CoreLocation
 
 
-struct Landmark: Hashable, Codable, Identifiable {
+struct Spot: Hashable, Codable, Identifiable {
+    var name: String
     var id: Int
-    var spot: String
     var link: String
     var difficulty: Float
     
@@ -35,3 +34,4 @@ struct Landmark: Hashable, Codable, Identifiable {
         }
 }
 
+typealias Spots = [Spot]

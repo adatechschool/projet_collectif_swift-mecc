@@ -6,23 +6,19 @@
 
 import SwiftUI
 
-struct LandmarkRow: View {
-    var landmark: Landmark
+struct SpotRow: View {
+    var spot: Spot
 
     var body: some View {
         HStack {
-            landmark.image
+            spot.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(landmark.name)
+            Text(spot.name)
 
             Spacer()
         }
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
-    static var previews: some View {
-        LandmarkRow(landmark: landmarks[1])
-    }
-}
+
