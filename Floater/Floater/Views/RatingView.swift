@@ -37,7 +37,7 @@ struct RatingView: View {
   }
 
   private var fullStar: some View {
-    Image("etoile").foregroundColor(RatingView.COLOR)
+    Image("turtle").foregroundColor(RatingView.COLOR)
   }
 
   private var halfFullStar: some View {
@@ -45,6 +45,6 @@ struct RatingView: View {
   }
 
   private var emptyStar: some View {
-    Image("etoile_vide").foregroundColor(RatingView.COLOR)
+    Image("turtle_vide").foregroundColor(RatingView.COLOR)
   }
 }

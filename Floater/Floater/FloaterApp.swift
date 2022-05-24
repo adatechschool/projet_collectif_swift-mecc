@@ -11,7 +11,16 @@ import SwiftUI
 struct FloaterApp: App {
     var body: some Scene {
         WindowGroup {
+            TabView{
             welcome()
+                .tabItem{
+                    Label("Menu", systemImage: "house.fill")
+                }
+            SurfingTortoise()
+                    .tabItem{
+                        Label("Tortue?", systemImage: "tortoise.fill")
+            }
         }
     }
+}
 }

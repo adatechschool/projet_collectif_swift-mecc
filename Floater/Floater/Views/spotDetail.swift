@@ -32,8 +32,14 @@ struct spotDetail: View {
 
                     Text("Pour en savoir plus sur \(spot.name) :")
                         .font(.title2)
+                    
+                    Spacer()
+                    
                     Link("https://magicseaweed.com",
                          destination: URL(string: spot.link)!)
+                    
+                    Spacer()
+                    Text(spot.about)
                 }
                 
                 .padding()

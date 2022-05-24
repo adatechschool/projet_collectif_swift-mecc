@@ -21,11 +21,11 @@ struct SpotList: View {
                     }
                 }
             }
+            .navigationTitle("Spots de surf")
         }
         .onAppear(){
             getSpotData()
         }
-        .navigationTitle(Text("Spots de surf"))
         }
     }
 

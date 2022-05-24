@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D2E583283CCA3B005D5966 /* SurfingTortoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D2E582283CCA3B005D5966 /* SurfingTortoise.swift */; };
 		AE38CBBB2829481E00E1EE70 /* SpotRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBA2829481E00E1EE70 /* SpotRow.swift */; };
 		AE38CBBD28295BC900E1EE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBC28295BC900E1EE70 /* ContentView.swift */; };
 		AE38CBBF282A666800E1EE70 /* welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CBBE282A666800E1EE70 /* welcome.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10D2E582283CCA3B005D5966 /* SurfingTortoise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingTortoise.swift; sourceTree = "<group>"; };
 		AE38CBBA2829481E00E1EE70 /* SpotRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotRow.swift; sourceTree = "<group>"; };
 		AE38CBBC28295BC900E1EE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE38CBBE282A666800E1EE70 /* welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcome.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				AE38CBC4282C085B00E1EE70 /* RatingView.swift */,
 				AE38CBBA2829481E00E1EE70 /* SpotRow.swift */,
 				AE38CBBE282A666800E1EE70 /* welcome.swift */,
+				10D2E582283CCA3B005D5966 /* SurfingTortoise.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				AE3F355428212A0D0006B307 /* ModelData.swift in Sources */,
 				AE3F353C281FE3230006B307 /* MapView.swift in Sources */,
 				AE9EDAAC2823CF2E003D00B4 /* spotDetail.swift in Sources */,
+				10D2E583283CCA3B005D5966 /* SurfingTortoise.swift in Sources */,
 				AE3F354A282019E90006B307 /* etoile_vide.swift in Sources */,
 				AE38CBC5282C085B00E1EE70 /* RatingView.swift in Sources */,
 				AE38CBBB2829481E00E1EE70 /* SpotRow.swift in Sources */,

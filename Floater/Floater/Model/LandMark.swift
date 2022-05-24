@@ -14,6 +14,7 @@ struct Spot: Hashable, Codable, Identifiable {
     var id: Int
     var link: String
     var difficulty: Float
+    var about: String
     
     
     private var imageName: String
